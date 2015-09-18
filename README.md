@@ -11,5 +11,6 @@ Technologies
 * CSS3
 * Javascript
 * jQuery
-* Lo_Dash
 * Bootstrap
+* Lo_Dash
+* Masonry / Isotope
