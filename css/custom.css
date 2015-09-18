@@ -1,0 +1,249 @@
+body {
+  background:url(../img/redback.jpg) top center scroll no-repeat;
+  background-size:cover;
+  font-family: 'Lato', sans-serif!important;
+  font-size:16px;
+}
+
+.header img {
+  width:100%;
+  height:auto;
+  padding:15px;
+}
+
+.container-fluid {
+  height:100%;
+  width:100%;
+  padding: 50px 100px!important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+span.default-text {
+  font-size: 14px;
+}
+
+.item {
+  display: block;
+  background: rgba(255,255,255,.1);
+  margin-bottom: 2%;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+  padding: 13px 13px 13% 13px;
+  font-size: 3em;
+  color: #FFF;
+  text-shadow: 0 0 6px rgba(0,0,0,1);
+  letter-spacing: 1.5px;
+}
+
+.ite {
+  display: block;
+  background: rgba(255,255,255,.1);
+  margin-bottom: 2%;
+  overflow: hidden;
+  font-size: 2em;
+  color: #FFF;
+  text-shadow: 0 0 6px rgba(0,0,0,1);
+  letter-spacing: 1.5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#slider span.user {
+  font-size:2em;
+  color: #FFF;
+  text-shadow: 0 0 6px rgba(0,0,0,1);
+  letter-spacing: 1px;
+}
+
+.item .photo {
+  width: 12%;
+  display: block;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.item img {
+  width:100%;
+  height:auto;
+}
+
+.item .info {
+  display: block;
+  float: left;
+  line-height: 1;
+  width: 88%;
+  padding: 0px 22px 22px 22px;
+}
+
+.item .username {
+  width: 80%;
+  overflow: hidden;
+  display: block;
+  float: left;
+  margin-top: 4%;
+}
+
+#slider {
+  height: 0px;
+  padding-bottom: 34%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 37%;
+  margin: 0px 0px 0px 4%;
+  float: left;
+  text-shadow: 0 0 6px rgba(0,0,0,1);
+}
+
+#slider i.fa.fa-heart {
+  color: rgb(247, 44, 44);
+  font-size: 2em;
+  margin-right: 10px;
+}
+
+.bigImg {
+  width:100%;
+  height:auto;
+}
+
+.board {
+  width: 51%;
+  float: right;
+  margin: 0% 4% 0% 0%;
+}
+
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(../img/redback.jpg) no-repeat;
+  background-size: cover;
+  opacity:1;
+}
+
+video#alphavid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: transparent;
+  opacity:1;
+  z-index:100!important;
+}
+
+span.rank, span.ranking {
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  background: rgba(0,0,0,.6);
+  padding: 10px 18px;
+}
+
+div.likes-float-right {
+  float: right;
+  margin-top: 5%;
+  width: 20%;
+  overflow: hidden;
+}
+
+.slider-info div.likes-float-right {
+  margin-top: 0px!important;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+
+div#info5 {
+  font-weight: 800;
+}
+
+span.lykes {
+  color: #FFF;
+  font-size: 1.5em;
+}
+
+span.ranking {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+i.fa.fa-heart {
+  color: rgb(247, 44, 44);
+}
+
+.slider-info {
+  background: rgba(255,255,255,.1);
+  padding: 13px;
+  margin: 0;
+  position: relative;
+}
+
+#container.instagram {
+  width: 90%;
+  float: right;
+}
+
+.rank-board {
+  width: 10%;
+  display: block;
+  float: left;
+}
+
+.rank-item {
+  padding:13px 13px 117% 13px;
+  display: block;
+  background: rgba(0,0,0,.6);
+  margin: 0px 0px 17.6% 0px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 62px;
+  text-align: center;
+  height: 0px;
+}
+
+.rank0 {
+  width: 30%;
+  padding: 15% 0;
+}
+.rank1 {
+  width: 22%;
+  padding: 11% 0;
+}
+.rank2 {
+  width: 16%;
+  padding: 8% 0;
+}
+.rank3 {
+  width: 14%;
+  padding: 7% 0;
+}
+.rank4 {
+  width: 12%;
+  padding: 6% 0;
+}
+.rank5 {
+  width: 10%;
+  padding: 5% 0;
+}
+.rank6 {
+  width: 8%;
+  padding: 4% 0;
+}
+.rank7 {
+  width: 8%;
+  padding: 4% 0;
+}
+.rank8 {
+  width: 8%;
+  padding: 4% 0;
+}
+.rank9 {
+  width: 8%;
+  padding: 4% 0;
+}
+.rank10 {
+  width: 8%;
+  padding: 4% 0;
+}
